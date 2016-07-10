@@ -282,5 +282,6 @@ JSONEditor.defaults.themes.foundation6 = JSONEditor.defaults.themes.foundation5.
     if(input.errmsg.parentNode) {
       input.errmsg.parentNode.removeChild(input.errmsg);
     }
-  },
+    delete input.errmsg;
+  }
 });
